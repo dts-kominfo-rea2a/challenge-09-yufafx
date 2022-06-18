@@ -10,15 +10,8 @@ const App = () => {
   return (
     <div className="App">
       <Header />
-      {contacts.map((obj) => {
-        return (
-          <Contact
-            name={obj.name}
-            phone={obj.phone}
-            email={obj.email}
-            photo={obj.photo}
-          />
-        );
+      {contacts.map((value, index) => {
+        return <Contact data={value} key={index} />;
       })}
     </div>
   );
