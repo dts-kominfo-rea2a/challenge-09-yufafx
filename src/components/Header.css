@@ -1,0 +1,23 @@
+.header {
+    background-color: #3AB0FF;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+h1:hover {
+    color: #F94C66;
+}
+
+p {
+    font-size: 18px;
+    margin: 10px;
+}
+
+hr {
+    padding: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 0;
+    border: solid 5px #FFB562;
+}
